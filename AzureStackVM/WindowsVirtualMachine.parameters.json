@@ -3,10 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": null
+            "value": "nedadmin"
         },
         "dnsNameForPublicIP": {
-            "value": null
+            "value": "nbazurestackvm3"
+        },
+        "SourceIPAddress": {
+            "value": "108.16.120.140"
         }
     }
 }
