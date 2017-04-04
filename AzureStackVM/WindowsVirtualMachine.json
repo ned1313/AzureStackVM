@@ -40,14 +40,16 @@
         "description": "The source IP address of the deployment script"
       }
     },
-      "_artifactsLocation": {
-          "type": "string",
-          "metadata": {
-              "description": "Auto-generated container in staging storage account to receive post-build staging folder upload"
-          }
-      },
+    "_artifactsLocation": {
+      "type": "string",
+      "defaultValue": "https://raw.githubusercontent.com/ned1313/AzureStackVM/master/AzureStackVM",
+      "metadata": {
+        "description": "Auto-generated container in staging storage account to receive post-build staging folder upload"
+      }
+    },
       "_artifactsLocationSasToken": {
-          "type": "securestring",
+        "type": "securestring",
+        "defaultValue": "",
           "metadata": {
               "description": "Auto-generated token to access _artifactsLocation"
           }
