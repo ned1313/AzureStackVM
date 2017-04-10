@@ -231,7 +231,7 @@
               "fileUris": [
                 "[concat(parameters('_artifactsLocation'), '/', variables('Enable-WinRMScriptFolder'), '/', variables('Enable-WinRMScriptFileName'), parameters('_artifactsLocationSasToken'))]"
               ],
-              "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', variables('Enable-WinRMScriptFolder'), '/', variables('Enable-WinRMScriptFileName'))]"
+              "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File ', variables('Enable-WinRMScriptFileName'))]"
             }
           }
         }
